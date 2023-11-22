@@ -10,7 +10,7 @@
 Add a simplified query tool to your Laravel application.
 
 ### 预览 Preview
-![](https://repository-images.githubusercontent.com/721082370/0240b5fa-69e2-4bf0-89f2-fbed407c2b54)
+![](https://repository-images.githubusercontent.com/722049413/a1b33a3f-8d0d-429d-bda4-468ad01756b2)
 
 
 ### 安装 Install
