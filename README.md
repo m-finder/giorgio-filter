@@ -7,6 +7,7 @@
 
 ## 关于 About Giorgio Filter
 为你的 Laravel 应用添加一个简化的查询工具。
+
 Add a simplified query tool to your Laravel application.
 
 ### 预览 Preview
@@ -16,12 +17,14 @@ Add a simplified query tool to your Laravel application.
 ### 安装 Install
 
 引入扩展 
+
 Require
 ```
 composer require wu/giorgio-filter
 ```
 
 在你的 Model 类中使用 Filter 
+
 Use Filter in your Model class
 ```
 use GiorgioFilter\Filters\Filter;
@@ -52,6 +55,10 @@ trait UserFilter
     }
 }
 ```
+
+可以使用 `php artisan make:filter UserFilter` 快速创建自定义 Filter。
+
+You can use `php artisan make:filter UserFilter` to quickly create a custom filter.
 
 ### License
 

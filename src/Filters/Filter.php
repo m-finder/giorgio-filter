@@ -82,7 +82,7 @@ trait Filter
      */
     protected function callable($data, $name): bool
     {
-        return !is_null($data) || in_array($name, $this->fillable ?? []) || in_array($name, ['id','created_at','updated_at', 'start_date', 'end_date']);
+        return !is_null($data) || in_array($name, array_merge($this->fillable ?? [], ['id','created_at','updated_at', 'start_date', 'end_date']));
     }
 
     /**

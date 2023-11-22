@@ -1,0 +1,12 @@
+<?php
+
+namespace {{ namespace }};
+
+use GiorgioFilter\Filters\Filter;
+use Illuminate\Database\Eloquent\Builder;
+
+trait {{ class }}
+{
+    use Filter;
+
+}
