@@ -1,0 +1,25 @@
+{
+    "name": "wu/giorgio-filter",
+    "description": "laravel query filter",
+    "keywords": [
+        "Laravel",
+        "Model",
+        "Filter"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "m-finder",
+            "email": "m@m-finder.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "GiorgioFilter\\": "src"
+        }
+    }
+}
