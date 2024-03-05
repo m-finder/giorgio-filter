@@ -14,7 +14,7 @@ class GiorgioFilterProvider extends ServiceProvider
 
     protected function registerCommands(): void
     {
-        if (!$this->app->runningInConsole()) {
+        if (! $this->app->runningInConsole()) {
             return;
         }
 
