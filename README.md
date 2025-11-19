@@ -1,7 +1,7 @@
 <p align="center"><img src="https://m-finder.github.io/images/avatar.jpeg"></p>
 <p align="center">
 <img src="https://img.shields.io/badge/Author-m--finder-red">
-<img src="https://img.shields.io/badge/Laravel-5.0-red">
+<img src="https://img.shields.io/badge/Laravel->=5.0-red">
 <a href="https://packagist.org/packages/wu/giorgio-filter"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
 </p>
 
